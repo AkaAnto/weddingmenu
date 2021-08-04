@@ -25,9 +25,8 @@
           line-height: 4.5rem;
         }
 
-        h3 {
+        h3, h1 {
           font-size: 2rem;
-          line-height: 4.5rem;
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -88,16 +87,16 @@
         <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#seafood" type="button" role="tab" aria-controls="seafood" aria-selected="false">Insalate</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#pasta" type="button" role="tab" aria-controls="pasta" aria-selected="false">Pastas y Rissotos</button>
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#pasta" type="button" role="tab" aria-controls="pasta" aria-selected="false">Pasta y Rissoto</button>
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="pizza-tab" data-bs-toggle="tab" data-bs-target="#pizza" type="button" role="tab" aria-controls="pizza" aria-selected="false">Pesce</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="salad-tab" data-bs-toggle="tab" data-bs-target="#salads" type="button" role="tab" aria-controls="salads" aria-selected="false">Ensaladas</button>
+        <button class="nav-link" id="salad-tab" data-bs-toggle="tab" data-bs-target="#salads" type="button" role="tab" aria-controls="salads" aria-selected="false">Carne</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="drinks-tab" data-bs-toggle="tab" data-bs-target="#drinks" type="button" role="tab" aria-controls="drinks" aria-selected="false">Bebidas</button>
+        <button class="nav-link" id="drinks-tab" data-bs-toggle="tab" data-bs-target="#drinks" type="button" role="tab" aria-controls="drinks" aria-selected="false">Pizza</button>
       </li>
 
     </ul>
@@ -321,8 +320,94 @@
           </div>
         </div>
       </div>
-      <div class="tab-pane fade" id="salads" role="tabpanel" aria-labelledby="salads">Ensaladas</div>
-      <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks">Bebidas</div>
+      <div class="tab-pane fade" id="salads" role="tabpanel" aria-labelledby="salads">
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Entraña alla griglia</h3>
+            <div class="mb-1 text-muted dish-text">Entraña de angus importada a la parrilla con papas rùsticas</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Filetto al gusto</h3>
+            <div class="mb-1 text-muted dish-text">Corte de filete importado servido con una salsa a su elecciòn: Tres pimientas/ Hongos porcini / Queso gorgonzola con papa duquesa</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Tagliata di manzo</h3>
+            <div class="mb-1 text-muted dish-text">Tagliata de New York steak con rùcula, queso grana y vinagre balsàmico de Modena</div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks">
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Margherita </h3>
+            <div class="mb-1 text-muted dish-text">Tomate, queso mozzarella, albahaca</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Diavola </h3>
+            <div class="mb-1 text-muted dish-text">Tomate, mozzarella, salchichòn picante</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">4 Stagioni </h3>
+            <div class="mb-1 text-muted dish-text">Tomate, mozzarella, jamòn york, aceitunas, champiñones, alcachofa</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Napoletana </h3>
+            <div class="mb-1 text-muted dish-text">Tomate, anchoas, y queso mozzarella</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Capricciosa </h3>
+            <div class="mb-1 text-muted dish-text">Tomate, mozzarella, jamòn york, champiñones, alcachofas, aceitunas negras</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Vegetariana </h3>
+            <div class="mb-1 text-muted dish-text">Mixto de vegetales de la temporada</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Prosciutto e funghi </h3>
+            <div class="mb-1 text-muted dish-text">Tomate, mozzarella, jamòn york, champiñones</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Tricolore </h3>
+            <div class="mb-1 text-muted dish-text">Tomate, mozzarella, jamòn serrano, rùcula, queso parmesano</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">La Vespa </h3>
+            <div class="mb-1 text-muted dish-text">Tomate, mozzarella, quezo azul, salchichòn picante</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Bismark </h3>
+            <div class="mb-1 text-muted dish-text">Tomate, mozzarella, tocino, huevo, queso parmesano</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Focaccia nutellona </h3>
+            <div class="mb-1 text-muted dish-text">Nutella y azùcar glacè</div>
+          </div>
+        </div>
+      </div>
 
     </div>
 

@@ -17,7 +17,7 @@
 		.bg-squid {
           background-color: white;
           background-image: url("bg.png");
-          background-size: cover;
+          background-size: contain;
         }
 
         h2 {
@@ -80,7 +80,7 @@
         <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#special" type="button" role="tab" aria-controls="special" aria-selected="true">Speciali</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#seafood" type="button" role="tab" aria-controls="seafood" aria-selected="false">Del Mar</button>
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#seafood" type="button" role="tab" aria-controls="seafood" aria-selected="false">Insalate</button>
       </li>
       <li class="nav-item" role="presentation">
         <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#pasta" type="button" role="tab" aria-controls="pasta" aria-selected="false">Pastas</button>
@@ -164,7 +164,33 @@
 
 
       </div>
-      <div class="tab-pane fade" id="seafood" role="tabpanel" aria-labelledby="seafood"> Del Mar</div>
+      <div class="tab-pane fade" id="seafood" role="tabpanel" aria-labelledby="seafood">
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Insalata lattuga, mele e noci</h3>
+            <div class="mb-1 text-muted dish-text">Lechuga romana, manzana verde y roja, nueces pecans, queso de cabra y pedacitos de tocino frito</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Insalata caesar al salmone</h3>
+            <div class="mb-1 text-muted dish-text">Mix de lechugas, salmòn, ajo, parmesano reggiano y eneldo</div>
+          </div>
+        </div>
+        <div class="row dish-holder" >
+          <div class="col  d-flex flex-column position-static">
+            <h3 class="mb-0 dish-title">Insalata SuperMix Verde</h3>
+            <div class="mb-1 text-muted dish-text">Mix de lechugas, rùcula, tomate, cebolla y palmitos/*opciòn de langostinos</div>
+          </div>
+
+          <div class="row dish-holder" >
+            <div class="col  d-flex flex-column position-static">
+              <h3 class="mb-0 dish-title">Insalata mediterrànea</h3>
+              <div class="mb-1 text-muted dish-text">Garbanzo, tomate, pepino, cebolla, aceitunas kalamata, albahaca y queso feta</div>
+            </div>
+          </div>
+
+      </div>
       <div class="tab-pane fade" id="pasta" role="tabpanel" aria-labelledby="pasta">Pastas</div>
       <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza">Pizza</div>
       <div class="tab-pane fade" id="salads" role="tabpanel" aria-labelledby="salads">Ensaladas</div>
